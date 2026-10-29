@@ -1,0 +1,20 @@
+customer360_bigquery:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: your-gcp-project-id
+      dataset: analytics_dev
+      threads: 4
+      timeout_seconds: 300
+      location: US
+    prod:
+      type: bigquery
+      method: service-account
+      project: your-gcp-production-project
+      dataset: analytics_prod
+      threads: 8
+      keyfile: /secrets/gcp-sa-key.json
+      timeout_seconds: 300
+      location: US

@@ -1,0 +1,89 @@
+version: 2
+
+sources:
+  - name: raw_ecommerce
+    description: "Raw Ingestion Layer containing GA4 event streams, CRM database snapshots, and Ad Platform spend data."
+    tables:
+      - name: raw_ga4_events
+        description: "Obfuscated GA4 events table conforming to BigQuery GA4 export specification."
+        columns:
+          - name: event_date
+            description: "Date of event in YYYYMMDD string format"
+          - name: event_timestamp
+            description: "Microsecond UNIX timestamp of the event"
+          - name: event_name
+            description: "Name of the GA4 event (e.g., session_start, page_view, purchase)"
+          - name: user_pseudo_id
+            description: "GA4 client ID (device/cookie identifier)"
+          - name: user_id
+            description: "Authenticated customer ID if logged in"
+
+      - name: raw_crm_customers
+        description: "CRM customer master record table."
+        columns:
+          - name: customer_id
+            description: "Primary key of CRM customer"
+            tests:
+              - unique
+              - not_null
+          - name: email_hash
+            description: "SHA256 hash of normalized customer email"
+
+      - name: raw_crm_orders
+        description: "Transactional order master table from e-commerce backend."
+        columns:
+          - name: order_id
+            description: "Unique order transaction identifier"
+            tests:
+              - unique
+              - not_null
+          - name: total_revenue
+            description: "Gross order revenue in USD"
+
+      - name: raw_ad_spend
+        description: "Aggregated marketing ad network cost and click delivery table."
+        columns:
+          - name: date
+            description: "Spend calendar date"
+          - name: channel_name
+            description: "Unified ad channel name"
+
+models:
+  - name: stg_ga4_events
+    description: "Standardized GA4 event stream with extracted parameters and timestamps."
+    columns:
+      - name: event_id
+        description: "Surrogate key for the event"
+        tests:
+          - unique
+          - not_null
+      - name: user_pseudo_id
+        description: "Client cookie ID"
+        tests:
+          - not_null
+
+  - name: stg_crm_customers
+    description: "Sanitized CRM customer profile table."
+    columns:
+      - name: customer_id
+        description: "Canonical CRM ID"
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_crm_orders
+    description: "Completed e-commerce transactions."
+    columns:
+      - name: order_id
+        description: "Order primary key"
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_ad_spend
+    description: "Daily marketing expenditure by channel and campaign."
+    columns:
+      - name: channel_name
+        description: "Channel identifier"
+        tests:
+          - not_null

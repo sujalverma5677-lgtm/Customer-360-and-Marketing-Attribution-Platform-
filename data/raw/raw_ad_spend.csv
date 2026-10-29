@@ -1,0 +1,535 @@
+date,channel_name,utm_source,utm_medium,utm_campaign,daily_spend,clicks,impressions,cpc,ctr_percent
+2026-08-01,Paid Search - Brand,google,cpc,brand_exact_match_core,133.51,125,3033,1.07,4.12
+2026-08-01,Paid Search - Generic,google,cpc,nonbrand_category_intent,515.23,163,4716,3.16,3.46
+2026-08-01,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,561.43,289,9904,1.94,2.92
+2026-08-01,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,218.75,130,4110,1.68,3.16
+2026-08-01,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,408.47,333,13141,1.23,2.53
+2026-08-01,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,57.04,537,16103,0.11,3.33
+2026-08-02,Paid Search - Brand,google,cpc,brand_exact_match_core,143.48,121,2988,1.19,4.05
+2026-08-02,Paid Search - Generic,google,cpc,nonbrand_category_intent,430.27,147,5004,2.93,2.94
+2026-08-02,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,664.73,337,8707,1.97,3.87
+2026-08-02,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,230.32,80,2292,2.88,3.49
+2026-08-02,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,443.64,690,30613,0.64,2.25
+2026-08-02,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,44.45,338,11284,0.13,3.0
+2026-08-03,Paid Search - Brand,google,cpc,brand_exact_match_core,127.56,115,2728,1.11,4.22
+2026-08-03,Paid Search - Generic,google,cpc,nonbrand_category_intent,358.78,120,4192,2.99,2.86
+2026-08-03,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,452.74,256,6850,1.77,3.74
+2026-08-03,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,170.29,74,2635,2.3,2.81
+2026-08-03,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,256.06,204,6894,1.26,2.96
+2026-08-03,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,42.06,344,9615,0.12,3.58
+2026-08-04,Paid Search - Brand,google,cpc,brand_exact_match_core,142.92,146,4113,0.98,3.55
+2026-08-04,Paid Search - Generic,google,cpc,nonbrand_category_intent,314.17,126,4318,2.49,2.92
+2026-08-04,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,435.03,241,10523,1.81,2.29
+2026-08-04,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,192.22,113,4755,1.7,2.38
+2026-08-04,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,261.18,203,9086,1.29,2.23
+2026-08-04,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,37.36,606,22372,0.06,2.71
+2026-08-05,Paid Search - Brand,google,cpc,brand_exact_match_core,132.37,95,2799,1.39,3.39
+2026-08-05,Paid Search - Generic,google,cpc,nonbrand_category_intent,430.0,119,3340,3.61,3.56
+2026-08-05,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,406.55,194,5583,2.1,3.47
+2026-08-05,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,248.82,104,2312,2.39,4.5
+2026-08-05,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,297.66,267,7591,1.11,3.52
+2026-08-05,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,38.1,738,27393,0.05,2.69
+2026-08-06,Paid Search - Brand,google,cpc,brand_exact_match_core,143.66,105,3718,1.37,2.82
+2026-08-06,Paid Search - Generic,google,cpc,nonbrand_category_intent,398.66,121,5293,3.29,2.29
+2026-08-06,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,428.82,239,8580,1.79,2.79
+2026-08-06,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,186.49,88,2592,2.12,3.4
+2026-08-06,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,279.47,268,11186,1.04,2.4
+2026-08-06,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,40.33,426,16522,0.09,2.58
+2026-08-07,Paid Search - Brand,google,cpc,brand_exact_match_core,122.83,138,4556,0.89,3.03
+2026-08-07,Paid Search - Generic,google,cpc,nonbrand_category_intent,366.93,127,5176,2.89,2.45
+2026-08-07,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,414.2,239,10443,1.73,2.29
+2026-08-07,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,184.43,97,2825,1.9,3.43
+2026-08-07,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,361.23,308,11645,1.17,2.64
+2026-08-07,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,37.01,575,18289,0.06,3.14
+2026-08-08,Paid Search - Brand,google,cpc,brand_exact_match_core,148.61,125,3907,1.19,3.2
+2026-08-08,Paid Search - Generic,google,cpc,nonbrand_category_intent,478.68,205,8048,2.34,2.55
+2026-08-08,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,461.55,381,11746,1.21,3.24
+2026-08-08,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,214.56,141,5795,1.52,2.43
+2026-08-08,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,440.59,636,25257,0.69,2.52
+2026-08-08,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,45.94,319,11417,0.14,2.79
+2026-08-09,Paid Search - Brand,google,cpc,brand_exact_match_core,168.04,208,8363,0.81,2.49
+2026-08-09,Paid Search - Generic,google,cpc,nonbrand_category_intent,448.12,128,5326,3.5,2.4
+2026-08-09,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,477.35,380,14999,1.26,2.53
+2026-08-09,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,289.67,109,3168,2.66,3.44
+2026-08-09,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,374.96,486,16767,0.77,2.9
+2026-08-09,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,45.94,440,9894,0.1,4.45
+2026-08-10,Paid Search - Brand,google,cpc,brand_exact_match_core,104.14,92,2241,1.13,4.11
+2026-08-10,Paid Search - Generic,google,cpc,nonbrand_category_intent,421.6,150,3304,2.81,4.54
+2026-08-10,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,422.88,313,9660,1.35,3.24
+2026-08-10,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,198.26,104,4492,1.91,2.32
+2026-08-10,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,337.13,311,11955,1.08,2.6
+2026-08-10,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,48.43,488,21856,0.1,2.23
+2026-08-11,Paid Search - Brand,google,cpc,brand_exact_match_core,112.78,82,2335,1.38,3.51
+2026-08-11,Paid Search - Generic,google,cpc,nonbrand_category_intent,308.18,115,3483,2.68,3.3
+2026-08-11,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,548.95,460,10578,1.19,4.35
+2026-08-11,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,182.09,86,2554,2.12,3.37
+2026-08-11,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,276.76,308,13102,0.9,2.35
+2026-08-11,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,44.99,399,11411,0.11,3.5
+2026-08-12,Paid Search - Brand,google,cpc,brand_exact_match_core,144.02,149,4988,0.97,2.99
+2026-08-12,Paid Search - Generic,google,cpc,nonbrand_category_intent,349.18,136,5829,2.57,2.33
+2026-08-12,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,526.26,267,11165,1.97,2.39
+2026-08-12,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,248.24,95,2410,2.61,3.94
+2026-08-12,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,272.73,298,12017,0.92,2.48
+2026-08-12,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,49.62,377,9275,0.13,4.06
+2026-08-13,Paid Search - Brand,google,cpc,brand_exact_match_core,122.52,99,2507,1.24,3.95
+2026-08-13,Paid Search - Generic,google,cpc,nonbrand_category_intent,342.73,147,5829,2.33,2.52
+2026-08-13,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,445.97,271,8961,1.65,3.02
+2026-08-13,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,247.83,105,3847,2.36,2.73
+2026-08-13,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,271.59,215,9287,1.26,2.32
+2026-08-13,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,40.13,382,13137,0.11,2.91
+2026-08-14,Paid Search - Brand,google,cpc,brand_exact_match_core,125.64,112,3056,1.12,3.66
+2026-08-14,Paid Search - Generic,google,cpc,nonbrand_category_intent,309.21,93,3173,3.32,2.93
+2026-08-14,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,522.29,262,7085,1.99,3.7
+2026-08-14,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,176.98,88,2347,2.01,3.75
+2026-08-14,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,357.07,418,13752,0.85,3.04
+2026-08-14,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,36.14,592,25433,0.06,2.33
+2026-08-15,Paid Search - Brand,google,cpc,brand_exact_match_core,143.19,109,4350,1.31,2.51
+2026-08-15,Paid Search - Generic,google,cpc,nonbrand_category_intent,380.41,131,5398,2.9,2.43
+2026-08-15,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,578.12,272,8618,2.13,3.16
+2026-08-15,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,224.23,123,4819,1.82,2.55
+2026-08-15,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,322.88,297,7511,1.09,3.95
+2026-08-15,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,54.88,458,14549,0.12,3.15
+2026-08-16,Paid Search - Brand,google,cpc,brand_exact_match_core,125.52,145,5129,0.87,2.83
+2026-08-16,Paid Search - Generic,google,cpc,nonbrand_category_intent,437.11,140,3589,3.12,3.9
+2026-08-16,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,490.73,390,10778,1.26,3.62
+2026-08-16,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,205.2,77,2431,2.66,3.17
+2026-08-16,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,416.22,448,11299,0.93,3.96
+2026-08-16,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,50.93,351,11517,0.15,3.05
+2026-08-17,Paid Search - Brand,google,cpc,brand_exact_match_core,136.68,128,4714,1.07,2.72
+2026-08-17,Paid Search - Generic,google,cpc,nonbrand_category_intent,299.35,130,3039,2.3,4.28
+2026-08-17,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,498.14,282,7329,1.77,3.85
+2026-08-17,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,182.83,88,2793,2.08,3.15
+2026-08-17,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,368.79,401,15383,0.92,2.61
+2026-08-17,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,38.13,355,10308,0.11,3.44
+2026-08-18,Paid Search - Brand,google,cpc,brand_exact_match_core,112.91,83,2344,1.36,3.54
+2026-08-18,Paid Search - Generic,google,cpc,nonbrand_category_intent,310.37,113,4957,2.75,2.28
+2026-08-18,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,516.26,335,7801,1.54,4.29
+2026-08-18,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,201.38,75,3333,2.69,2.25
+2026-08-18,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,327.61,500,18962,0.66,2.64
+2026-08-18,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,41.64,361,11305,0.12,3.19
+2026-08-19,Paid Search - Brand,google,cpc,brand_exact_match_core,120.26,144,4398,0.84,3.27
+2026-08-19,Paid Search - Generic,google,cpc,nonbrand_category_intent,356.89,139,3391,2.57,4.1
+2026-08-19,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,447.79,228,6775,1.96,3.37
+2026-08-19,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,189.16,109,2664,1.74,4.09
+2026-08-19,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,280.43,461,19787,0.61,2.33
+2026-08-19,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,37.0,527,22856,0.07,2.31
+2026-08-20,Paid Search - Brand,google,cpc,brand_exact_match_core,113.54,133,4670,0.85,2.85
+2026-08-20,Paid Search - Generic,google,cpc,nonbrand_category_intent,303.78,80,2650,3.8,3.02
+2026-08-20,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,391.15,325,9456,1.2,3.44
+2026-08-20,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,248.44,97,4272,2.56,2.27
+2026-08-20,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,315.03,384,11898,0.82,3.23
+2026-08-20,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,39.69,630,23636,0.06,2.67
+2026-08-21,Paid Search - Brand,google,cpc,brand_exact_match_core,117.9,88,2955,1.34,2.98
+2026-08-21,Paid Search - Generic,google,cpc,nonbrand_category_intent,367.8,107,2412,3.44,4.44
+2026-08-21,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,525.79,323,13560,1.63,2.38
+2026-08-21,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,172.99,100,3769,1.73,2.65
+2026-08-21,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,264.45,254,11154,1.04,2.28
+2026-08-21,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,37.71,526,19816,0.07,2.65
+2026-08-22,Paid Search - Brand,google,cpc,brand_exact_match_core,130.51,106,4753,1.23,2.23
+2026-08-22,Paid Search - Generic,google,cpc,nonbrand_category_intent,441.27,116,4176,3.8,2.78
+2026-08-22,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,572.03,294,9493,1.95,3.1
+2026-08-22,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,216.59,113,4106,1.92,2.75
+2026-08-22,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,441.38,702,26952,0.63,2.6
+2026-08-22,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,53.91,729,32754,0.07,2.23
+2026-08-23,Paid Search - Brand,google,cpc,brand_exact_match_core,157.36,114,3994,1.38,2.85
+2026-08-23,Paid Search - Generic,google,cpc,nonbrand_category_intent,524.06,231,5161,2.27,4.48
+2026-08-23,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,624.52,433,18165,1.44,2.38
+2026-08-23,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,280.55,101,3380,2.78,2.99
+2026-08-23,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,371.49,516,14860,0.72,3.47
+2026-08-23,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,42.11,391,11779,0.11,3.32
+2026-08-24,Paid Search - Brand,google,cpc,brand_exact_match_core,105.41,85,2770,1.24,3.07
+2026-08-24,Paid Search - Generic,google,cpc,nonbrand_category_intent,435.56,115,4548,3.79,2.53
+2026-08-24,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,462.07,218,9508,2.12,2.29
+2026-08-24,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,247.73,113,3430,2.19,3.29
+2026-08-24,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,289.4,326,11818,0.89,2.76
+2026-08-24,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,44.89,477,16116,0.09,2.96
+2026-08-25,Paid Search - Brand,google,cpc,brand_exact_match_core,131.98,133,3181,0.99,4.18
+2026-08-25,Paid Search - Generic,google,cpc,nonbrand_category_intent,355.35,124,5230,2.87,2.37
+2026-08-25,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,560.92,489,21751,1.15,2.25
+2026-08-25,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,174.56,66,2514,2.64,2.63
+2026-08-25,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,322.3,455,11111,0.71,4.1
+2026-08-25,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,40.01,373,15531,0.11,2.4
+2026-08-26,Paid Search - Brand,google,cpc,brand_exact_match_core,112.71,85,3178,1.33,2.67
+2026-08-26,Paid Search - Generic,google,cpc,nonbrand_category_intent,346.35,119,4082,2.91,2.92
+2026-08-26,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,529.79,434,11347,1.22,3.82
+2026-08-26,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,178.67,62,1930,2.88,3.21
+2026-08-26,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,306.97,348,8172,0.88,4.26
+2026-08-26,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,39.48,357,9599,0.11,3.72
+2026-08-27,Paid Search - Brand,google,cpc,brand_exact_match_core,137.58,158,5127,0.87,3.08
+2026-08-27,Paid Search - Generic,google,cpc,nonbrand_category_intent,373.81,100,2534,3.74,3.95
+2026-08-27,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,420.92,244,10911,1.73,2.24
+2026-08-27,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,231.94,146,5927,1.59,2.46
+2026-08-27,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,349.75,272,7319,1.29,3.72
+2026-08-27,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,37.38,714,28165,0.05,2.54
+2026-08-28,Paid Search - Brand,google,cpc,brand_exact_match_core,122.3,128,3334,0.96,3.84
+2026-08-28,Paid Search - Generic,google,cpc,nonbrand_category_intent,317.34,123,2937,2.58,4.19
+2026-08-28,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,539.78,338,10698,1.6,3.16
+2026-08-28,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,187.13,68,1783,2.75,3.81
+2026-08-28,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,261.45,213,6785,1.23,3.14
+2026-08-28,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,49.41,620,16472,0.08,3.76
+2026-08-29,Paid Search - Brand,google,cpc,brand_exact_match_core,176.66,162,5559,1.09,2.91
+2026-08-29,Paid Search - Generic,google,cpc,nonbrand_category_intent,488.69,130,4165,3.76,3.12
+2026-08-29,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,656.12,379,15512,1.73,2.44
+2026-08-29,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,257.85,93,2470,2.77,3.77
+2026-08-29,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,410.07,408,10333,1.01,3.95
+2026-08-29,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,53.55,404,15711,0.13,2.57
+2026-08-30,Paid Search - Brand,google,cpc,brand_exact_match_core,169.93,137,3058,1.24,4.48
+2026-08-30,Paid Search - Generic,google,cpc,nonbrand_category_intent,507.61,137,4587,3.71,2.99
+2026-08-30,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,527.34,267,10012,1.98,2.67
+2026-08-30,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,229.23,91,4070,2.52,2.24
+2026-08-30,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,441.84,368,13464,1.2,2.73
+2026-08-30,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,53.07,492,11236,0.11,4.38
+2026-08-31,Paid Search - Brand,google,cpc,brand_exact_match_core,137.79,150,5702,0.92,2.63
+2026-08-31,Paid Search - Generic,google,cpc,nonbrand_category_intent,405.91,130,3506,3.12,3.71
+2026-08-31,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,420.26,320,12042,1.31,2.66
+2026-08-31,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,246.41,122,3704,2.02,3.29
+2026-08-31,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,291.23,357,14579,0.82,2.45
+2026-08-31,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,36.0,360,16192,0.1,2.22
+2026-09-01,Paid Search - Brand,google,cpc,brand_exact_match_core,121.87,120,4925,1.02,2.44
+2026-09-01,Paid Search - Generic,google,cpc,nonbrand_category_intent,357.12,95,2823,3.76,3.37
+2026-09-01,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,549.24,342,10458,1.61,3.27
+2026-09-01,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,214.22,123,3939,1.74,3.12
+2026-09-01,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,289.2,272,10239,1.06,2.66
+2026-09-01,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,44.15,367,15990,0.12,2.3
+2026-09-02,Paid Search - Brand,google,cpc,brand_exact_match_core,145.48,169,4058,0.86,4.16
+2026-09-02,Paid Search - Generic,google,cpc,nonbrand_category_intent,414.71,184,4117,2.25,4.47
+2026-09-02,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,550.35,453,17779,1.21,2.55
+2026-09-02,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,219.91,97,3547,2.27,2.73
+2026-09-02,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,315.4,270,10086,1.17,2.68
+2026-09-02,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,47.63,669,26671,0.07,2.51
+2026-09-03,Paid Search - Brand,google,cpc,brand_exact_match_core,128.48,147,6129,0.87,2.4
+2026-09-03,Paid Search - Generic,google,cpc,nonbrand_category_intent,430.58,159,6400,2.71,2.48
+2026-09-03,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,466.01,222,8176,2.1,2.72
+2026-09-03,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,232.77,113,4928,2.06,2.29
+2026-09-03,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,348.86,365,10276,0.96,3.55
+2026-09-03,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,44.54,551,23561,0.08,2.34
+2026-09-04,Paid Search - Brand,google,cpc,brand_exact_match_core,145.65,120,2651,1.21,4.53
+2026-09-04,Paid Search - Generic,google,cpc,nonbrand_category_intent,424.77,197,4452,2.16,4.42
+2026-09-04,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,524.79,259,8789,2.03,2.95
+2026-09-04,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,229.3,117,3032,1.96,3.86
+2026-09-04,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,323.66,359,12486,0.9,2.88
+2026-09-04,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,40.26,360,11176,0.11,3.22
+2026-09-05,Paid Search - Brand,google,cpc,brand_exact_match_core,125.37,92,2931,1.36,3.14
+2026-09-05,Paid Search - Generic,google,cpc,nonbrand_category_intent,514.82,186,7206,2.77,2.58
+2026-09-05,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,546.07,376,9642,1.45,3.9
+2026-09-05,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,226.17,90,2241,2.51,4.02
+2026-09-05,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,323.05,321,9956,1.01,3.22
+2026-09-05,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,55.43,391,16132,0.14,2.42
+2026-09-06,Paid Search - Brand,google,cpc,brand_exact_match_core,131.56,132,3187,1.0,4.14
+2026-09-06,Paid Search - Generic,google,cpc,nonbrand_category_intent,361.31,170,6750,2.13,2.52
+2026-09-06,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,492.06,276,9523,1.78,2.9
+2026-09-06,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,297.35,129,2913,2.31,4.43
+2026-09-06,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,411.72,319,11673,1.29,2.73
+2026-09-06,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,55.73,811,30013,0.07,2.7
+2026-09-07,Paid Search - Brand,google,cpc,brand_exact_match_core,112.64,122,5042,0.92,2.42
+2026-09-07,Paid Search - Generic,google,cpc,nonbrand_category_intent,399.18,114,3499,3.5,3.26
+2026-09-07,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,429.39,371,8869,1.16,4.18
+2026-09-07,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,181.5,118,5268,1.54,2.24
+2026-09-07,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,359.03,529,22919,0.68,2.31
+2026-09-07,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,35.96,560,15694,0.06,3.57
+2026-09-08,Paid Search - Brand,google,cpc,brand_exact_match_core,110.67,130,5385,0.85,2.41
+2026-09-08,Paid Search - Generic,google,cpc,nonbrand_category_intent,425.28,173,4206,2.46,4.11
+2026-09-08,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,525.68,338,11218,1.56,3.01
+2026-09-08,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,220.05,122,3862,1.8,3.16
+2026-09-08,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,361.77,346,11200,1.05,3.09
+2026-09-08,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,36.58,457,19552,0.08,2.34
+2026-09-09,Paid Search - Brand,google,cpc,brand_exact_match_core,133.66,113,4707,1.18,2.4
+2026-09-09,Paid Search - Generic,google,cpc,nonbrand_category_intent,313.91,117,3507,2.68,3.34
+2026-09-09,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,561.58,319,7054,1.76,4.52
+2026-09-09,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,211.74,114,2826,1.86,4.03
+2026-09-09,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,327.73,336,11395,0.98,2.95
+2026-09-09,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,46.18,644,19572,0.07,3.29
+2026-09-10,Paid Search - Brand,google,cpc,brand_exact_match_core,145.13,177,4458,0.82,3.97
+2026-09-10,Paid Search - Generic,google,cpc,nonbrand_category_intent,309.18,94,2341,3.29,4.02
+2026-09-10,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,431.76,327,7885,1.32,4.15
+2026-09-10,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,226.65,93,3045,2.44,3.05
+2026-09-10,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,352.08,388,16981,0.91,2.28
+2026-09-10,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,48.76,650,17258,0.08,3.77
+2026-09-11,Paid Search - Brand,google,cpc,brand_exact_match_core,142.61,115,5074,1.24,2.27
+2026-09-11,Paid Search - Generic,google,cpc,nonbrand_category_intent,311.91,90,3196,3.47,2.82
+2026-09-11,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,412.32,310,11968,1.33,2.59
+2026-09-11,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,204.68,96,3428,2.13,2.8
+2026-09-11,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,287.6,349,8541,0.82,4.09
+2026-09-11,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,40.13,573,17257,0.07,3.32
+2026-09-12,Paid Search - Brand,google,cpc,brand_exact_match_core,174.12,134,4333,1.3,3.09
+2026-09-12,Paid Search - Generic,google,cpc,nonbrand_category_intent,506.43,135,3755,3.75,3.6
+2026-09-12,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,547.52,310,13074,1.77,2.37
+2026-09-12,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,295.24,131,4082,2.25,3.21
+2026-09-12,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,322.51,276,8797,1.17,3.14
+2026-09-12,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,44.37,595,16034,0.07,3.71
+2026-09-13,Paid Search - Brand,google,cpc,brand_exact_match_core,143.81,162,4735,0.89,3.42
+2026-09-13,Paid Search - Generic,google,cpc,nonbrand_category_intent,358.62,109,4195,3.29,2.6
+2026-09-13,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,505.17,292,8583,1.73,3.4
+2026-09-13,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,226.33,142,4050,1.59,3.51
+2026-09-13,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,336.55,447,15601,0.75,2.87
+2026-09-13,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,54.55,377,15295,0.14,2.46
+2026-09-14,Paid Search - Brand,google,cpc,brand_exact_match_core,134.22,117,4313,1.15,2.71
+2026-09-14,Paid Search - Generic,google,cpc,nonbrand_category_intent,393.0,138,5617,2.85,2.46
+2026-09-14,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,418.17,362,12076,1.16,3.0
+2026-09-14,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,173.74,92,2276,1.89,4.04
+2026-09-14,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,309.33,302,10750,1.02,2.81
+2026-09-14,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,37.78,724,16225,0.05,4.46
+2026-09-15,Paid Search - Brand,google,cpc,brand_exact_match_core,139.6,121,2674,1.15,4.53
+2026-09-15,Paid Search - Generic,google,cpc,nonbrand_category_intent,362.15,155,6856,2.34,2.26
+2026-09-15,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,389.16,230,7850,1.69,2.93
+2026-09-15,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,196.99,129,4232,1.53,3.05
+2026-09-15,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,354.58,398,11511,0.89,3.46
+2026-09-15,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,39.08,462,11011,0.08,4.2
+2026-09-16,Paid Search - Brand,google,cpc,brand_exact_match_core,139.18,126,2908,1.1,4.33
+2026-09-16,Paid Search - Generic,google,cpc,nonbrand_category_intent,339.28,89,2967,3.81,3.0
+2026-09-16,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,497.9,236,9768,2.11,2.42
+2026-09-16,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,245.02,149,4045,1.64,3.68
+2026-09-16,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,354.05,507,22739,0.7,2.23
+2026-09-16,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,47.78,390,10610,0.12,3.68
+2026-09-17,Paid Search - Brand,google,cpc,brand_exact_match_core,106.22,86,3498,1.24,2.46
+2026-09-17,Paid Search - Generic,google,cpc,nonbrand_category_intent,411.76,136,3007,3.03,4.52
+2026-09-17,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,506.38,437,18492,1.16,2.36
+2026-09-17,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,173.45,110,3189,1.58,3.45
+2026-09-17,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,286.65,265,10654,1.08,2.49
+2026-09-17,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,40.07,334,14452,0.12,2.31
+2026-09-18,Paid Search - Brand,google,cpc,brand_exact_match_core,130.01,149,4372,0.87,3.41
+2026-09-18,Paid Search - Generic,google,cpc,nonbrand_category_intent,318.22,102,4238,3.12,2.41
+2026-09-18,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,543.69,301,11248,1.81,2.68
+2026-09-18,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,211.74,115,3794,1.84,3.03
+2026-09-18,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,313.81,394,15669,0.8,2.51
+2026-09-18,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,41.72,704,27894,0.06,2.52
+2026-09-19,Paid Search - Brand,google,cpc,brand_exact_match_core,163.38,161,6636,1.01,2.43
+2026-09-19,Paid Search - Generic,google,cpc,nonbrand_category_intent,397.72,124,5168,3.21,2.4
+2026-09-19,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,609.11,515,17188,1.18,3.0
+2026-09-19,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,224.4,92,3014,2.44,3.05
+2026-09-19,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,361.45,383,11425,0.94,3.35
+2026-09-19,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,56.43,447,15117,0.13,2.96
+2026-09-20,Paid Search - Brand,google,cpc,brand_exact_match_core,140.45,102,3906,1.38,2.61
+2026-09-20,Paid Search - Generic,google,cpc,nonbrand_category_intent,467.09,131,3200,3.57,4.09
+2026-09-20,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,487.09,231,7130,2.11,3.24
+2026-09-20,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,247.43,104,2773,2.38,3.75
+2026-09-20,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,363.63,561,17801,0.65,3.15
+2026-09-20,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,53.98,371,13087,0.15,2.83
+2026-09-21,Paid Search - Brand,google,cpc,brand_exact_match_core,106.9,99,2422,1.08,4.09
+2026-09-21,Paid Search - Generic,google,cpc,nonbrand_category_intent,312.93,147,4792,2.13,3.07
+2026-09-21,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,430.52,265,9065,1.62,2.92
+2026-09-21,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,198.16,118,4089,1.68,2.89
+2026-09-21,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,297.53,397,12358,0.75,3.21
+2026-09-21,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,40.89,490,15753,0.08,3.11
+2026-09-22,Paid Search - Brand,google,cpc,brand_exact_match_core,119.75,144,4434,0.83,3.25
+2026-09-22,Paid Search - Generic,google,cpc,nonbrand_category_intent,427.42,175,4612,2.44,3.79
+2026-09-22,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,414.3,295,10611,1.4,2.78
+2026-09-22,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,211.49,127,2939,1.67,4.32
+2026-09-22,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,284.87,420,10352,0.68,4.06
+2026-09-22,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,48.32,449,12343,0.11,3.64
+2026-09-23,Paid Search - Brand,google,cpc,brand_exact_match_core,127.54,132,5583,0.97,2.36
+2026-09-23,Paid Search - Generic,google,cpc,nonbrand_category_intent,395.43,141,4376,2.8,3.22
+2026-09-23,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,422.08,210,7960,2.01,2.64
+2026-09-23,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,209.61,120,3201,1.75,3.75
+2026-09-23,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,331.43,302,8644,1.1,3.49
+2026-09-23,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,34.05,497,21310,0.07,2.33
+2026-09-24,Paid Search - Brand,google,cpc,brand_exact_match_core,131.86,106,4410,1.24,2.4
+2026-09-24,Paid Search - Generic,google,cpc,nonbrand_category_intent,393.81,164,6178,2.4,2.65
+2026-09-24,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,412.5,281,9124,1.47,3.08
+2026-09-24,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,246.98,101,3216,2.45,3.14
+2026-09-24,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,257.5,200,8453,1.29,2.37
+2026-09-24,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,36.73,291,6467,0.13,4.5
+2026-09-25,Paid Search - Brand,google,cpc,brand_exact_match_core,118.9,109,2400,1.09,4.54
+2026-09-25,Paid Search - Generic,google,cpc,nonbrand_category_intent,419.75,144,3317,2.91,4.34
+2026-09-25,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,385.63,208,5966,1.85,3.49
+2026-09-25,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,188.26,85,3346,2.21,2.54
+2026-09-25,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,348.03,519,21014,0.67,2.47
+2026-09-25,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,39.37,397,11936,0.1,3.33
+2026-09-26,Paid Search - Brand,google,cpc,brand_exact_match_core,153.83,128,3562,1.2,3.59
+2026-09-26,Paid Search - Generic,google,cpc,nonbrand_category_intent,434.07,123,3557,3.53,3.46
+2026-09-26,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,531.09,318,11852,1.67,2.68
+2026-09-26,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,287.05,107,3545,2.68,3.02
+2026-09-26,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,344.87,357,13107,0.97,2.72
+2026-09-26,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,43.64,479,12964,0.09,3.69
+2026-09-27,Paid Search - Brand,google,cpc,brand_exact_match_core,179.66,177,4019,1.02,4.4
+2026-09-27,Paid Search - Generic,google,cpc,nonbrand_category_intent,454.03,138,4403,3.29,3.13
+2026-09-27,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,503.56,420,18133,1.2,2.32
+2026-09-27,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,240.27,145,4103,1.66,3.53
+2026-09-27,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,396.27,403,17322,0.98,2.33
+2026-09-27,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,59.76,434,11294,0.14,3.84
+2026-09-28,Paid Search - Brand,google,cpc,brand_exact_match_core,145.7,144,4264,1.01,3.38
+2026-09-28,Paid Search - Generic,google,cpc,nonbrand_category_intent,379.98,102,2892,3.73,3.53
+2026-09-28,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,416.8,239,9115,1.74,2.62
+2026-09-28,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,236.73,141,5681,1.68,2.48
+2026-09-28,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,323.0,279,8364,1.16,3.34
+2026-09-28,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,35.76,703,30458,0.05,2.31
+2026-09-29,Paid Search - Brand,google,cpc,brand_exact_match_core,109.06,90,3062,1.21,2.94
+2026-09-29,Paid Search - Generic,google,cpc,nonbrand_category_intent,338.07,110,2831,3.07,3.89
+2026-09-29,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,470.13,401,11540,1.17,3.47
+2026-09-29,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,206.31,114,4672,1.81,2.44
+2026-09-29,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,269.81,286,6325,0.94,4.52
+2026-09-29,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,39.64,297,6874,0.13,4.32
+2026-09-30,Paid Search - Brand,google,cpc,brand_exact_match_core,108.61,81,3244,1.34,2.5
+2026-09-30,Paid Search - Generic,google,cpc,nonbrand_category_intent,367.78,98,3419,3.75,2.87
+2026-09-30,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,554.16,294,7432,1.88,3.96
+2026-09-30,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,228.64,108,4656,2.12,2.32
+2026-09-30,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,289.9,465,20207,0.62,2.3
+2026-09-30,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,37.98,322,9944,0.12,3.24
+2026-10-01,Paid Search - Brand,google,cpc,brand_exact_match_core,121.16,90,3828,1.35,2.35
+2026-10-01,Paid Search - Generic,google,cpc,nonbrand_category_intent,426.33,136,3534,3.13,3.85
+2026-10-01,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,460.95,223,9031,2.07,2.47
+2026-10-01,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,181.13,70,1942,2.59,3.6
+2026-10-01,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,304.96,412,11954,0.74,3.45
+2026-10-01,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,38.76,271,8836,0.14,3.07
+2026-10-02,Paid Search - Brand,google,cpc,brand_exact_match_core,110.8,87,3582,1.27,2.43
+2026-10-02,Paid Search - Generic,google,cpc,nonbrand_category_intent,310.95,103,3910,3.02,2.63
+2026-10-02,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,473.19,255,7707,1.86,3.31
+2026-10-02,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,198.34,92,4058,2.16,2.27
+2026-10-02,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,310.35,250,5651,1.24,4.42
+2026-10-02,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,46.27,786,19833,0.06,3.96
+2026-10-03,Paid Search - Brand,google,cpc,brand_exact_match_core,174.63,137,4842,1.27,2.83
+2026-10-03,Paid Search - Generic,google,cpc,nonbrand_category_intent,419.68,132,5636,3.18,2.34
+2026-10-03,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,648.61,559,23163,1.16,2.41
+2026-10-03,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,216.09,88,2872,2.46,3.06
+2026-10-03,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,415.87,432,17842,0.96,2.42
+2026-10-03,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,42.43,550,24575,0.08,2.24
+2026-10-04,Paid Search - Brand,google,cpc,brand_exact_match_core,128.57,111,4540,1.16,2.44
+2026-10-04,Paid Search - Generic,google,cpc,nonbrand_category_intent,451.99,138,5779,3.28,2.39
+2026-10-04,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,485.23,278,9382,1.75,2.96
+2026-10-04,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,272.83,109,3692,2.5,2.95
+2026-10-04,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,386.94,302,7591,1.28,3.98
+2026-10-04,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,57.99,508,12984,0.11,3.91
+2026-10-05,Paid Search - Brand,google,cpc,brand_exact_match_core,132.16,107,4658,1.24,2.3
+2026-10-05,Paid Search - Generic,google,cpc,nonbrand_category_intent,410.29,129,3433,3.18,3.76
+2026-10-05,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,394.59,311,13135,1.27,2.37
+2026-10-05,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,211.59,114,2779,1.86,4.1
+2026-10-05,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,257.96,270,8366,0.96,3.23
+2026-10-05,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,48.82,610,20206,0.08,3.02
+2026-10-06,Paid Search - Brand,google,cpc,brand_exact_match_core,110.83,117,4855,0.95,2.41
+2026-10-06,Paid Search - Generic,google,cpc,nonbrand_category_intent,333.94,106,3402,3.15,3.12
+2026-10-06,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,500.97,405,10272,1.24,3.94
+2026-10-06,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,171.73,101,3951,1.7,2.56
+2026-10-06,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,283.88,296,11275,0.96,2.63
+2026-10-06,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,37.21,379,10861,0.1,3.49
+2026-10-07,Paid Search - Brand,google,cpc,brand_exact_match_core,106.8,92,2801,1.16,3.28
+2026-10-07,Paid Search - Generic,google,cpc,nonbrand_category_intent,336.03,121,4887,2.78,2.48
+2026-10-07,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,466.01,233,5920,2.0,3.94
+2026-10-07,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,192.67,115,3560,1.68,3.23
+2026-10-07,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,324.66,520,19219,0.62,2.71
+2026-10-07,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,44.52,471,20199,0.09,2.33
+2026-10-08,Paid Search - Brand,google,cpc,brand_exact_match_core,119.03,134,5667,0.89,2.36
+2026-10-08,Paid Search - Generic,google,cpc,nonbrand_category_intent,361.67,170,4359,2.13,3.9
+2026-10-08,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,472.61,230,6175,2.05,3.72
+2026-10-08,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,242.2,108,3650,2.24,2.96
+2026-10-08,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,275.94,390,14463,0.71,2.7
+2026-10-08,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,43.01,448,18703,0.1,2.4
+2026-10-09,Paid Search - Brand,google,cpc,brand_exact_match_core,108.72,85,3157,1.28,2.69
+2026-10-09,Paid Search - Generic,google,cpc,nonbrand_category_intent,426.79,192,7930,2.22,2.42
+2026-10-09,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,469.57,217,7797,2.16,2.78
+2026-10-09,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,184.43,74,2490,2.49,2.97
+2026-10-09,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,334.07,427,16246,0.78,2.63
+2026-10-09,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,43.42,401,14212,0.11,2.82
+2026-10-10,Paid Search - Brand,google,cpc,brand_exact_match_core,170.2,202,4581,0.84,4.41
+2026-10-10,Paid Search - Generic,google,cpc,nonbrand_category_intent,480.12,192,7161,2.5,2.68
+2026-10-10,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,566.88,306,9009,1.85,3.4
+2026-10-10,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,226.23,87,3749,2.6,2.32
+2026-10-10,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,420.57,624,26368,0.67,2.37
+2026-10-10,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,54.78,619,27475,0.09,2.25
+2026-10-11,Paid Search - Brand,google,cpc,brand_exact_match_core,175.53,209,5802,0.84,3.6
+2026-10-11,Paid Search - Generic,google,cpc,nonbrand_category_intent,363.29,107,3440,3.4,3.11
+2026-10-11,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,539.85,300,6803,1.8,4.41
+2026-10-11,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,220.71,133,4301,1.66,3.09
+2026-10-11,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,325.18,310,10787,1.05,2.87
+2026-10-11,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,44.56,449,16888,0.1,2.66
+2026-10-12,Paid Search - Brand,google,cpc,brand_exact_match_core,112.82,90,2878,1.25,3.13
+2026-10-12,Paid Search - Generic,google,cpc,nonbrand_category_intent,371.49,107,2565,3.47,4.17
+2026-10-12,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,386.86,179,4334,2.16,4.13
+2026-10-12,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,172.66,101,2234,1.71,4.52
+2026-10-12,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,347.93,348,14575,1.0,2.39
+2026-10-12,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,39.45,333,14661,0.12,2.27
+2026-10-13,Paid Search - Brand,google,cpc,brand_exact_match_core,136.96,122,3217,1.12,3.79
+2026-10-13,Paid Search - Generic,google,cpc,nonbrand_category_intent,326.55,93,3117,3.51,2.98
+2026-10-13,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,446.67,213,8866,2.1,2.4
+2026-10-13,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,234.13,110,4002,2.13,2.75
+2026-10-13,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,359.88,360,8973,1.0,4.01
+2026-10-13,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,42.28,703,23529,0.06,2.99
+2026-10-14,Paid Search - Brand,google,cpc,brand_exact_match_core,104.47,92,2071,1.14,4.44
+2026-10-14,Paid Search - Generic,google,cpc,nonbrand_category_intent,412.49,159,6526,2.59,2.44
+2026-10-14,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,452.78,303,12746,1.49,2.38
+2026-10-14,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,182.63,95,3257,1.92,2.92
+2026-10-14,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,283.97,295,10637,0.96,2.77
+2026-10-14,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,39.0,348,12025,0.11,2.89
+2026-10-15,Paid Search - Brand,google,cpc,brand_exact_match_core,144.81,125,5443,1.16,2.3
+2026-10-15,Paid Search - Generic,google,cpc,nonbrand_category_intent,435.39,135,3070,3.23,4.4
+2026-10-15,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,458.35,347,14721,1.32,2.36
+2026-10-15,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,174.75,97,3956,1.8,2.45
+2026-10-15,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,294.55,260,11175,1.13,2.33
+2026-10-15,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,35.0,352,14266,0.1,2.47
+2026-10-16,Paid Search - Brand,google,cpc,brand_exact_match_core,129.07,110,4532,1.17,2.43
+2026-10-16,Paid Search - Generic,google,cpc,nonbrand_category_intent,410.55,152,3591,2.7,4.23
+2026-10-16,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,457.42,239,10366,1.91,2.31
+2026-10-16,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,241.0,111,2772,2.17,4.0
+2026-10-16,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,341.8,507,16944,0.67,2.99
+2026-10-16,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,37.6,442,14579,0.09,3.03
+2026-10-17,Paid Search - Brand,google,cpc,brand_exact_match_core,167.42,126,3432,1.33,3.67
+2026-10-17,Paid Search - Generic,google,cpc,nonbrand_category_intent,513.45,239,9555,2.15,2.5
+2026-10-17,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,501.37,283,8695,1.77,3.25
+2026-10-17,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,269.63,176,5823,1.53,3.02
+2026-10-17,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,361.75,418,10400,0.87,4.02
+2026-10-17,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,54.27,517,12748,0.1,4.06
+2026-10-18,Paid Search - Brand,google,cpc,brand_exact_match_core,129.2,110,4705,1.17,2.34
+2026-10-18,Paid Search - Generic,google,cpc,nonbrand_category_intent,416.1,155,6682,2.68,2.32
+2026-10-18,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,510.44,424,9426,1.2,4.5
+2026-10-18,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,243.65,95,3854,2.56,2.46
+2026-10-18,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,383.22,606,24507,0.63,2.47
+2026-10-18,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,57.57,767,17877,0.08,4.29
+2026-10-19,Paid Search - Brand,google,cpc,brand_exact_match_core,104.72,98,2792,1.07,3.51
+2026-10-19,Paid Search - Generic,google,cpc,nonbrand_category_intent,341.48,109,4630,3.13,2.35
+2026-10-19,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,562.16,452,14079,1.24,3.21
+2026-10-19,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,222.61,92,2185,2.42,4.21
+2026-10-19,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,367.6,494,18881,0.74,2.62
+2026-10-19,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,47.01,336,14028,0.14,2.4
+2026-10-20,Paid Search - Brand,google,cpc,brand_exact_match_core,123.29,125,3804,0.99,3.29
+2026-10-20,Paid Search - Generic,google,cpc,nonbrand_category_intent,374.7,104,2872,3.6,3.62
+2026-10-20,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,543.24,374,12885,1.45,2.9
+2026-10-20,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,178.35,89,2798,2.0,3.18
+2026-10-20,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,369.07,392,9331,0.94,4.2
+2026-10-20,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,48.59,362,12301,0.13,2.94
+2026-10-21,Paid Search - Brand,google,cpc,brand_exact_match_core,116.64,103,2556,1.13,4.03
+2026-10-21,Paid Search - Generic,google,cpc,nonbrand_category_intent,398.99,116,2647,3.44,4.38
+2026-10-21,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,424.82,268,10606,1.59,2.53
+2026-10-21,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,246.24,160,6597,1.54,2.43
+2026-10-21,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,287.44,284,8210,1.01,3.46
+2026-10-21,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,49.44,883,36781,0.06,2.4
+2026-10-22,Paid Search - Brand,google,cpc,brand_exact_match_core,120.43,148,4558,0.81,3.25
+2026-10-22,Paid Search - Generic,google,cpc,nonbrand_category_intent,359.66,144,4424,2.5,3.25
+2026-10-22,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,501.29,297,11045,1.69,2.69
+2026-10-22,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,172.5,67,2918,2.57,2.3
+2026-10-22,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,364.21,322,9574,1.13,3.36
+2026-10-22,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,47.25,619,24342,0.08,2.54
+2026-10-23,Paid Search - Brand,google,cpc,brand_exact_match_core,112.39,137,5300,0.82,2.58
+2026-10-23,Paid Search - Generic,google,cpc,nonbrand_category_intent,384.51,107,4280,3.59,2.5
+2026-10-23,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,549.64,285,11562,1.93,2.46
+2026-10-23,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,214.26,75,3258,2.86,2.3
+2026-10-23,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,289.49,223,7648,1.3,2.92
+2026-10-23,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,40.78,334,13255,0.12,2.52
+2026-10-24,Paid Search - Brand,google,cpc,brand_exact_match_core,137.38,99,3242,1.39,3.05
+2026-10-24,Paid Search - Generic,google,cpc,nonbrand_category_intent,523.76,209,8961,2.51,2.33
+2026-10-24,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,519.63,280,7927,1.86,3.53
+2026-10-24,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,299.89,116,3341,2.59,3.47
+2026-10-24,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,388.24,619,17522,0.63,3.53
+2026-10-24,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,45.96,612,22656,0.08,2.7
+2026-10-25,Paid Search - Brand,google,cpc,brand_exact_match_core,166.84,206,5986,0.81,3.44
+2026-10-25,Paid Search - Generic,google,cpc,nonbrand_category_intent,468.01,132,5477,3.55,2.41
+2026-10-25,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,554.86,495,10990,1.12,4.5
+2026-10-25,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,207.55,103,3776,2.02,2.73
+2026-10-25,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,386.15,435,15368,0.89,2.83
+2026-10-25,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,42.33,302,10474,0.14,2.88
+2026-10-26,Paid Search - Brand,google,cpc,brand_exact_match_core,147.76,138,3854,1.07,3.58
+2026-10-26,Paid Search - Generic,google,cpc,nonbrand_category_intent,407.64,160,5341,2.55,3.0
+2026-10-26,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,423.44,327,13746,1.29,2.38
+2026-10-26,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,222.48,121,4483,1.84,2.7
+2026-10-26,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,277.11,290,9316,0.96,3.11
+2026-10-26,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,39.08,370,10079,0.11,3.67
+2026-10-27,Paid Search - Brand,google,cpc,brand_exact_match_core,147.68,105,4665,1.41,2.25
+2026-10-27,Paid Search - Generic,google,cpc,nonbrand_category_intent,299.76,84,3489,3.57,2.41
+2026-10-27,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,479.78,417,11424,1.15,3.65
+2026-10-27,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,178.73,80,1968,2.23,4.07
+2026-10-27,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,264.29,355,12467,0.74,2.85
+2026-10-27,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,47.27,400,9456,0.12,4.23
+2026-10-28,Paid Search - Brand,google,cpc,brand_exact_match_core,122.47,126,2843,0.97,4.43
+2026-10-28,Paid Search - Generic,google,cpc,nonbrand_category_intent,382.48,141,6264,2.71,2.25
+2026-10-28,Paid Social - Meta Prospecting,facebook,paid_social,meta_lookalike_top_buyers,544.03,359,15680,1.52,2.29
+2026-10-28,Paid Social - Meta Retargeting,facebook,paid_social,meta_dpa_dynamic_retargeting,193.53,125,3808,1.55,3.28
+2026-10-28,Paid Video - TikTok Ads,tiktok,paid_social,tiktok_ugc_viral_spring,289.9,411,14630,0.71,2.81
+2026-10-28,Email Marketing,klaviyo,email,klaviyo_abandoned_cart_flow,35.7,501,14629,0.07,3.42

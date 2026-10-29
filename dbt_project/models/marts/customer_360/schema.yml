@@ -1,0 +1,41 @@
+version: 2
+
+models:
+  - name: dim_customers_360
+    description: "Enterprise Customer 360 gold table with unified identifiers, lifetime value, acquisition channels, and RFM scores."
+    columns:
+      - name: canonical_customer_id
+        description: "Canonical customer primary key"
+        tests:
+          - unique
+          - not_null
+      - name: email
+        description: "Primary customer contact email"
+      - name: lifetime_revenue_usd
+        description: "Total historical net revenue generated"
+      - name: rfm_segment
+        description: "Customer RFM behavioral cohort"
+        tests:
+          - not_null
+          - accepted_values:
+              values:
+                - "Champions"
+                - "Loyal Customers"
+                - "Potential Loyalists"
+                - "Recent Customers"
+                - "Promising"
+                - "Customers Needing Attention"
+                - "About to Sleep"
+                - "At Risk"
+                - "Can't Lose Them"
+                - "Hibernating"
+                - "Lost"
+
+  - name: fct_customer_rfm_segments
+    description: "Detailed RFM scoring breakdown and CLV predictions."
+    columns:
+      - name: canonical_customer_id
+        description: "Customer identifier"
+        tests:
+          - unique
+          - not_null

@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: int_identity_graph
+    description: "Resolved identity mapping joining cookies, user IDs, and emails to canonical customer IDs."
+    columns:
+      - name: identifier_value
+        description: "Source identifier value (cookie, email, or CRM ID)"
+      - name: canonical_customer_id
+        description: "Resolved enterprise canonical customer ID"
+        tests:
+          - not_null
+
+  - name: int_web_sessions
+    description: "Session-level aggregation containing session metrics, canonical customer ID, and traffic attribution."
+    columns:
+      - name: session_id
+        description: "GA4 session identifier"
+        tests:
+          - unique
+          - not_null
+      - name: canonical_customer_id
+        description: "Resolved canonical customer ID"
+
+  - name: int_customer_touchpoints
+    description: "Ordered marketing touchpoint journey leading to each conversion within 30-day lookback window."
+    columns:
+      - name: touchpoint_id
+        description: "Unique surrogate key for touchpoint-order pair"
+        tests:
+          - unique
+          - not_null

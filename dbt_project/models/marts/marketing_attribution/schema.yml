@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: fct_attribution_multi_touch
+    description: "Granular multi-touch attribution table allocating conversion revenue and credit across First-Touch, Last-Touch, Linear, Time-Decay, and Position-Based models."
+    columns:
+      - name: touchpoint_id
+        description: "Primary key of touchpoint-order attribution event"
+        tests:
+          - unique
+          - not_null
+      - name: order_id
+        description: "Associated order ID"
+        tests:
+          - not_null
+      - name: channel_grouping
+        description: "Marketing channel name"
+        tests:
+          - not_null
+
+  - name: agg_campaign_performance_roi
+    description: "Aggregated campaign performance and ROI comparison across attribution models."
+    columns:
+      - name: channel_name
+        description: "Marketing channel identifier"
+        tests:
+          - unique
+          - not_null
+      - name: total_spend_usd
+        description: "Total ad spend incurred"
+      - name: roas_last_touch
+        description: "Return on Ad Spend under Last-Touch Attribution"
+      - name: roas_time_decay
+        description: "Return on Ad Spend under Time-Decay Attribution"

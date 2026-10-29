@@ -1,0 +1,7 @@
+channel_name,total_spend_usd,recommended_budget_usd,budget_change_usd,budget_change_pct,revenue_time_decay,projected_revenue_usd,revenue_lift_usd,roas_time_decay,projected_roas,optimization_rationale
+Paid Search - Brand,11823.01,17146.23,5323.22,45.0,97958.52,129456.14,31497.62,8.29,7.55,SCALE UP (+45.0%): High MTA ROAS (8.29x). Under-invested discovery engine.
+Paid Video - TikTok Ads,29562.68,32066.0,2503.32,8.5,87931.74,93459.06,5527.32,2.97,2.91,MAINTAIN (+8.5%): Operates near optimal marginal efficiency.
+Email Marketing,3934.93,6086.25,2151.32,54.7,90148.61,125031.26,34882.65,22.91,20.54,SCALE UP (+54.7%): High MTA ROAS (22.91x). Under-invested discovery engine.
+Paid Social - Meta Retargeting,19348.56,20213.04,864.48,4.5,91488.86,94537.79,3048.93,4.73,4.68,MAINTAIN (+4.5%): Operates near optimal marginal efficiency.
+Paid Search - Generic,35011.8,32968.51,-2043.29,-5.8,86026.72,82233.17,-3793.55,2.46,2.49,MAINTAIN (-5.8%): Operates near optimal marginal efficiency.
+Paid Social - Meta Prospecting,43859.93,35060.88,-8799.05,-20.1,79692.71,67372.82,-12319.89,1.82,1.92,TRIM BUDGET (-20.1%): Channel saturated under MTA. Shift capital to top-of-funnel.

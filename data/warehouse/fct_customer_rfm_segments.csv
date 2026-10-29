@@ -1,0 +1,11 @@
+rfm_segment,customer_count,total_segment_revenue_usd,avg_recency_days,avg_frequency_orders,avg_monetary_spend_usd,avg_clv_predicted_12m,pct_of_customers,pct_of_revenue,recommended_action
+Champions,231,249510.1,13.4,2.72,1080.13,2465.07,19.25,32.83,"VIP Rewards, Early Access, Ambassador Referral Program"
+Loyal Customers,223,148215.85,29.2,1.57,664.65,1356.56,18.58,19.5,"Upsell Premium Tiers, Loyalty Points, Product Feedback"
+Customers Needing Attention,167,121353.61,53.3,1.84,726.67,1162.67,13.92,15.97,"Reactivation offer, customer support check-in"
+Recent Customers,170,63846.15,14.6,1.0,375.57,855.12,14.17,8.4,"Onboarding email sequence, post-purchase delight, brand storytelling"
+At Risk,120,45945.51,72.6,1.0,382.88,469.03,10.0,6.04,"High-touch outreach, personalized 20% discount code, re-engagement ads"
+Can't Lose Them,45,37907.37,70.1,1.98,842.39,1031.92,3.75,4.99,"White-glove executive reachout, win them back before churn is permanent"
+Potential Loyalists,96,37076.06,37.7,1.0,386.21,762.76,8.0,4.88,"Cross-sell complementary gear, recommend bundles"
+About to Sleep,73,30938.3,53.9,1.0,423.81,678.1,6.08,4.07,"Aggressive win-back discount, surveys to diagnose friction"
+Hibernating,47,22507.85,71.6,1.0,478.89,586.64,3.92,2.96,Standard automated low-cost email reactivation campaign
+Lost,28,2781.3,75.4,0.64,99.33,121.68,2.33,0.37,"Sunset email list, suppress from paid ad retargeting to save budget"
