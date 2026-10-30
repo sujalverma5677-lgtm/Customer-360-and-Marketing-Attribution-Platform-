@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<workbook source-build='2024.1.0' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Campaign Performance &amp; ROI' inline='true' name='campaign_performance_roi' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='tableau_agg_campaign_performance_roi' name='textscan.campaign_perf'>
+            <connection class='textscan' directory='.' filename='tableau_agg_campaign_performance_roi.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.campaign_perf' name='tableau_agg_campaign_performance_roi#csv' table='[tableau_agg_campaign_performance_roi#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='channel_name' ordinal='0' />
+            <column datatype='real' name='total_spend_usd' ordinal='1' />
+            <column datatype='integer' name='total_clicks' ordinal='2' />
+            <column datatype='integer' name='total_impressions' ordinal='3' />
+            <column datatype='real' name='avg_cpc' ordinal='4' />
+            <column datatype='real' name='blended_ctr_pct' ordinal='5' />
+            <column datatype='real' name='revenue_first_touch' ordinal='6' />
+            <column datatype='real' name='revenue_last_touch' ordinal='7' />
+            <column datatype='real' name='revenue_linear' ordinal='8' />
+            <column datatype='real' name='revenue_time_decay' ordinal='9' />
+            <column datatype='real' name='revenue_position_based' ordinal='10' />
+            <column datatype='real' name='conversions_first_touch' ordinal='11' />
+            <column datatype='real' name='conversions_last_touch' ordinal='12' />
+            <column datatype='real' name='conversions_linear' ordinal='13' />
+            <column datatype='real' name='conversions_time_decay' ordinal='14' />
+            <column datatype='real' name='conversions_position_based' ordinal='15' />
+            <column datatype='real' name='roas_first_touch' ordinal='16' />
+            <column datatype='real' name='roas_last_touch' ordinal='17' />
+            <column datatype='real' name='roas_linear' ordinal='18' />
+            <column datatype='real' name='roas_time_decay' ordinal='19' />
+            <column datatype='real' name='roas_position_based' ordinal='20' />
+            <column datatype='real' name='cpa_first_touch' ordinal='21' />
+            <column datatype='real' name='cpa_last_touch' ordinal='22' />
+            <column datatype='real' name='cpa_linear' ordinal='23' />
+            <column datatype='real' name='cpa_time_decay' ordinal='24' />
+            <column datatype='real' name='net_roi_pct_time_decay' ordinal='25' />
+            <column datatype='string' name='executive_budget_recommendation' ordinal='26' />
+          </columns>
+        </relation>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Channel Name' datatype='string' name='[channel_name]' role='dimension' type='nominal' />
+      <column caption='Total Spend ($)' datatype='real' name='[total_spend_usd]' role='measure' type='quantitative' />
+      <column caption='Time-Decay Attributed Revenue ($)' datatype='real' name='[revenue_time_decay]' role='measure' type='quantitative' />
+      <column caption='Last-Touch Revenue ($)' datatype='real' name='[revenue_last_touch]' role='measure' type='quantitative' />
+      <column caption='First-Touch Revenue ($)' datatype='real' name='[revenue_first_touch]' role='measure' type='quantitative' />
+      <column caption='Time-Decay ROAS' datatype='real' name='[roas_time_decay]' role='measure' type='quantitative' />
+      <column caption='Last-Touch ROAS' datatype='real' name='[roas_last_touch]' role='measure' type='quantitative' />
+      <column caption='Time-Decay CPA ($)' datatype='real' name='[cpa_time_decay]' role='measure' type='quantitative' />
+      <column caption='Last-Touch CPA ($)' datatype='real' name='[cpa_last_touch]' role='measure' type='quantitative' />
+      <column caption='Attribution Delta (MTA vs LTA)' datatype='real' name='[mta_variance_usd]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[revenue_time_decay] - [revenue_last_touch]' />
+      </column>
+    </datasource>
+    <datasource caption='Customer 360 Master' inline='true' name='customer_360_dim' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='tableau_dim_customers_360' name='textscan.dim_customers'>
+            <connection class='textscan' directory='.' filename='tableau_dim_customers_360.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.dim_customers' name='tableau_dim_customers_360#csv' table='[tableau_dim_customers_360#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='canonical_customer_id' ordinal='0' />
+            <column datatype='string' name='email' ordinal='1' />
+            <column datatype='string' name='first_name' ordinal='2' />
+            <column datatype='string' name='last_name' ordinal='3' />
+            <column datatype='string' name='full_name' ordinal='4' />
+            <column datatype='string' name='phone' ordinal='5' />
+            <column datatype='string' name='country' ordinal='6' />
+            <column datatype='string' name='region' ordinal='7' />
+            <column datatype='string' name='city' ordinal='8' />
+            <column datatype='datetime' name='signup_timestamp' ordinal='9' />
+            <column datatype='datetime' name='first_seen_timestamp' ordinal='10' />
+            <column datatype='datetime' name='last_seen_timestamp' ordinal='11' />
+            <column datatype='integer' name='lifetime_sessions_count' ordinal='12' />
+            <column datatype='string' name='first_acquisition_channel' ordinal='13' />
+            <column datatype='string' name='last_active_channel' ordinal='14' />
+            <column datatype='integer' name='lifetime_orders_count' ordinal='15' />
+            <column datatype='real' name='lifetime_revenue_usd' ordinal='16' />
+            <column datatype='real' name='avg_order_value_usd' ordinal='17' />
+            <column datatype='integer' name='recency_days' ordinal='18' />
+            <column datatype='integer' name='frequency_orders' ordinal='19' />
+            <column datatype='real' name='monetary_usd' ordinal='20' />
+            <column datatype='integer' name='r_score' ordinal='21' />
+            <column datatype='integer' name='f_score' ordinal='22' />
+            <column datatype='integer' name='m_score' ordinal='23' />
+            <column datatype='string' name='rfm_score_combined' ordinal='24' />
+            <column datatype='real' name='rfm_score_average' ordinal='25' />
+            <column datatype='string' name='rfm_segment' ordinal='26' />
+            <column datatype='real' name='clv_predicted_12m' ordinal='27' />
+          </columns>
+        </relation>
+      </connection>
+      <column caption='Customer ID' datatype='string' name='[canonical_customer_id]' role='dimension' type='nominal' />
+      <column caption='Customer Name' datatype='string' name='[full_name]' role='dimension' type='nominal' />
+      <column caption='RFM Segment' datatype='string' name='[rfm_segment]' role='dimension' type='nominal' />
+      <column caption='Recency (Days)' datatype='integer' name='[recency_days]' role='measure' type='quantitative' />
+      <column caption='Order Frequency' datatype='integer' name='[frequency_orders]' role='measure' type='quantitative' />
+      <column caption='Monetary Spend ($)' datatype='real' name='[monetary_usd]' role='measure' type='quantitative' />
+      <column caption='12M Predicted CLV ($)' datatype='real' name='[clv_predicted_12m]' role='measure' type='quantitative' />
+    </datasource>
+    <datasource caption='Budget Reallocation' inline='true' name='budget_reallocation' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='tableau_agg_budget_reallocation' name='textscan.budget_realloc'>
+            <connection class='textscan' directory='.' filename='tableau_agg_budget_reallocation.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.budget_realloc' name='tableau_agg_budget_reallocation#csv' table='[tableau_agg_budget_reallocation#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='channel_name' ordinal='0' />
+            <column datatype='real' name='total_spend_usd' ordinal='1' />
+            <column datatype='real' name='recommended_budget_usd' ordinal='2' />
+            <column datatype='real' name='budget_change_usd' ordinal='3' />
+            <column datatype='real' name='budget_change_pct' ordinal='4' />
+            <column datatype='real' name='revenue_time_decay' ordinal='5' />
+            <column datatype='real' name='projected_revenue_usd' ordinal='6' />
+            <column datatype='real' name='revenue_lift_usd' ordinal='7' />
+            <column datatype='real' name='roas_time_decay' ordinal='8' />
+            <column datatype='real' name='projected_roas' ordinal='9' />
+            <column datatype='string' name='optimization_rationale' ordinal='10' />
+          </columns>
+        </relation>
+      </connection>
+      <column caption='Channel' datatype='string' name='[channel_name]' role='dimension' type='nominal' />
+      <column caption='Current Spend ($)' datatype='real' name='[total_spend_usd]' role='measure' type='quantitative' />
+      <column caption='Recommended Budget ($)' datatype='real' name='[recommended_budget_usd]' role='measure' type='quantitative' />
+      <column caption='Budget Shift ($)' datatype='real' name='[budget_change_usd]' role='measure' type='quantitative' />
+      <column caption='Budget Shift (%)' datatype='real' name='[budget_change_pct]' role='measure' type='quantitative' />
+      <column caption='Projected Revenue Lift ($)' datatype='real' name='[revenue_lift_usd]' role='measure' type='quantitative' />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='1_Attribution_Model_Comparison'>
+      <table>
+        <view>
+          <datasources>
+            <datasource name='campaign_performance_roi' />
+          </datasources>
+          <datasource-dependencies datasource='campaign_performance_roi'>
+            <column datatype='string' name='[channel_name]' role='dimension' type='nominal' />
+            <column datatype='real' name='[revenue_last_touch]' role='measure' type='quantitative' />
+            <column datatype='real' name='[revenue_time_decay]' role='measure' type='quantitative' />
+            <column datatype='real' name='[revenue_first_touch]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[campaign_performance_roi].[channel_name]</rows>
+        <cols>[campaign_performance_roi].[revenue_time_decay]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='2_Budget_Reallocation_Shift'>
+      <table>
+        <view>
+          <datasources>
+            <datasource name='budget_reallocation' />
+          </datasources>
+          <datasource-dependencies datasource='budget_reallocation'>
+            <column datatype='string' name='[channel_name]' role='dimension' type='nominal' />
+            <column datatype='real' name='[budget_change_usd]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[budget_reallocation].[channel_name]</rows>
+        <cols>[budget_reallocation].[budget_change_usd]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='3_RFM_Customer_Segmentation'>
+      <table>
+        <view>
+          <datasources>
+            <datasource name='customer_360_dim' />
+          </datasources>
+          <datasource-dependencies datasource='customer_360_dim'>
+            <column datatype='string' name='[rfm_segment]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[recency_days]' role='measure' type='quantitative' />
+            <column datatype='real' name='[monetary_usd]' role='measure' type='quantitative' />
+            <column datatype='real' name='[clv_predicted_12m]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+          </pane>
+        </panes>
+        <rows>[customer_360_dim].[monetary_usd]</rows>
+        <cols>[customer_360_dim].[recency_days]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='4_CPA_and_ROAS_Diagnostics'>
+      <table>
+        <view>
+          <datasources>
+            <datasource name='campaign_performance_roi' />
+          </datasources>
+          <datasource-dependencies datasource='campaign_performance_roi'>
+            <column datatype='string' name='[channel_name]' role='dimension' type='nominal' />
+            <column datatype='real' name='[roas_time_decay]' role='measure' type='quantitative' />
+            <column datatype='real' name='[cpa_time_decay]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[campaign_performance_roi].[channel_name]</rows>
+        <cols>[campaign_performance_roi].[roas_time_decay]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='CMO_Executive_Attribution_Dashboard'>
+      <style />
+      <size maxheight='900' maxwidth='1400' minheight='900' minwidth='1400' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='1' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='50000' id='2' name='1_Attribution_Model_Comparison' w='50000' x='0' y='0' />
+          <zone h='50000' id='3' name='2_Budget_Reallocation_Shift' w='50000' x='50000' y='0' />
+          <zone h='50000' id='4' name='3_RFM_Customer_Segmentation' w='50000' x='0' y='50000' />
+          <zone h='50000' id='5' name='4_CPA_and_ROAS_Diagnostics' w='50000' x='50000' y='50000' />
+        </zone>
+      </zones>
+    </dashboard>
+  </dashboards>
+  <windows>
+    <window class='dashboard' maximized='true' name='CMO_Executive_Attribution_Dashboard'>
+      <viewpoints />
+      <active id='1' />
+    </window>
+  </windows>
+</workbook>

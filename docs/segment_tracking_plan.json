@@ -1,0 +1,59 @@
+{
+  "$schema": "https://universe.segment.com/protocols/v1/schema.json",
+  "name": "Customer 360 & Marketing Attribution Tracking Plan",
+  "version": "1.0.0",
+  "rules": {
+    "events": [
+      {
+        "name": "Order Completed",
+        "description": "Triggered when a customer completes an e-commerce transaction",
+        "rules": {
+          "properties": {
+            "order_id": { "type": "string" },
+            "subtotal": { "type": "number" },
+            "total": { "type": "number" },
+            "currency": { "type": "string" },
+            "products": { "type": "array" },
+            "campaign": { "type": "object" }
+          },
+          "required": ["order_id", "total"]
+        }
+      },
+      {
+        "name": "Product Viewed",
+        "description": "Triggered when a customer views a product page",
+        "rules": {
+          "properties": {
+            "product_id": { "type": "string" },
+            "sku": { "type": "string" },
+            "name": { "type": "string" },
+            "price": { "type": "number" },
+            "category": { "type": "string" }
+          },
+          "required": ["product_id", "price"]
+        }
+      },
+      {
+        "name": "Cart Viewed",
+        "description": "Triggered when a customer navigates to the shopping cart",
+        "rules": {
+          "properties": {
+            "cart_id": { "type": "string" },
+            "products": { "type": "array" }
+          }
+        }
+      }
+    ],
+    "identify": {
+      "traits": {
+        "email": { "type": "string", "format": "email" },
+        "firstName": { "type": "string" },
+        "lastName": { "type": "string" },
+        "phone": { "type": "string" },
+        "city": { "type": "string" },
+        "country": { "type": "string" }
+      },
+      "required": ["email"]
+    }
+  }
+}
