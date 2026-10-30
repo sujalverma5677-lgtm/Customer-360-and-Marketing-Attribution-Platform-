@@ -25,9 +25,72 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Base Paths
+# Base Paths and Environment Configuration
 current_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(current_dir)
+src_dir = os.path.join(project_root, "src")
+
+for p in [project_root, src_dir]:
+    if p not in sys.path:
+        sys.path.insert(0, p)
+
+try:
+    from analytics.budget_optimizer import BudgetOptimizer
+except ImportError:
+    try:
+        from src.analytics.budget_optimizer import BudgetOptimizer
+    except ImportError:
+        # Fallback inline implementation if module import fails
+        class BudgetOptimizer:
+            def __init__(self, elasticity: float = 0.75):
+                self.elasticity = elasticity
+
+            def optimize_budget(self, df_campaign_perf: pd.DataFrame, total_budget_multiplier: float = 1.0) -> pd.DataFrame:
+                paid = df_campaign_perf[df_campaign_perf["total_spend_usd"] > 0].copy()
+                total_current_spend = paid["total_spend_usd"].sum()
+                target_total_spend = total_current_spend * total_budget_multiplier
+                paid["blended_mta_roas"] = (
+                    (0.35 * paid["roas_first_touch"] + 0.65 * paid["roas_time_decay"])
+                ).clip(lower=0.1)
+                avg_mta_roas = paid["blended_mta_roas"].mean()
+                paid["efficiency_factor"] = np.power(paid["blended_mta_roas"] / avg_mta_roas, 0.6)
+                unconstrained_spend = paid["total_spend_usd"] * paid["efficiency_factor"]
+                paid["recommended_budget_usd"] = (
+                    (unconstrained_spend / unconstrained_spend.sum()) * target_total_spend
+                ).round(2)
+                min_allowed = paid["total_spend_usd"] * 0.65
+                max_allowed = paid["total_spend_usd"] * 1.50
+                paid["recommended_budget_usd"] = paid["recommended_budget_usd"].clip(lower=min_allowed, upper=max_allowed)
+                paid["recommended_budget_usd"] = (
+                    (paid["recommended_budget_usd"] / paid["recommended_budget_usd"].sum()) * target_total_spend
+                ).round(2)
+                paid["budget_change_usd"] = (paid["recommended_budget_usd"] - paid["total_spend_usd"]).round(2)
+                paid["budget_change_pct"] = ((paid["budget_change_usd"] * 100.0) / paid["total_spend_usd"]).round(1)
+                paid["scale_factor_A"] = paid["revenue_time_decay"] / (np.power(paid["total_spend_usd"], self.elasticity) + 1e-6)
+                paid["projected_revenue_usd"] = (
+                    paid["scale_factor_A"] * np.power(paid["recommended_budget_usd"], self.elasticity)
+                ).round(2)
+                paid["revenue_lift_usd"] = (paid["projected_revenue_usd"] - paid["revenue_time_decay"]).round(2)
+                paid["projected_roas"] = (paid["projected_revenue_usd"] / paid["recommended_budget_usd"]).round(2)
+
+                def narrative(row):
+                    pct = row["budget_change_pct"]
+                    if pct >= 15.0:
+                        return f"SCALE UP (+{pct}%): High MTA ROAS ({row['roas_time_decay']:.2f}x). Under-invested discovery engine."
+                    elif pct <= -10.0:
+                        return f"TRIM BUDGET ({pct}%): Channel saturated under MTA. Shift capital to top-of-funnel."
+                    else:
+                        return f"MAINTAIN ({pct:+0.1f}%): Operates near optimal marginal efficiency."
+
+                paid["optimization_rationale"] = paid.apply(narrative, axis=1)
+                cols = [
+                    "channel_name", "total_spend_usd", "recommended_budget_usd",
+                    "budget_change_usd", "budget_change_pct",
+                    "revenue_time_decay", "projected_revenue_usd", "revenue_lift_usd",
+                    "roas_time_decay", "projected_roas", "optimization_rationale"
+                ]
+                return paid[cols].sort_values(by="budget_change_usd", ascending=False).reset_index(drop=True)
+
 warehouse_dir = os.path.join(project_root, "data", "warehouse")
 processed_dir = os.path.join(project_root, "data", "processed")
 raw_dir = os.path.join(project_root, "data", "raw")
@@ -415,7 +478,6 @@ with tab_budget:
     budget_scale = st.slider("Scale Overall Marketing Budget:", min_value=0.5, max_value=2.0, value=1.0, step=0.05, format="%.2fx")
 
     # Run dynamic optimization on the fly
-    from analytics.budget_optimizer import BudgetOptimizer
     dynamic_opt = BudgetOptimizer(elasticity=0.75)
     df_dyn_realloc = dynamic_opt.optimize_budget(df_perf, total_budget_multiplier=budget_scale)
 
