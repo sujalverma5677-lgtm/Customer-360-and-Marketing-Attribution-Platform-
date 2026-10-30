@@ -36,6 +36,11 @@ raw_dir = os.path.join(project_root, "data", "raw")
 @st.cache_data
 def load_all_data():
     df_customers = pd.read_csv(os.path.join(warehouse_dir, "dim_customers_360.csv"))
+    if "full_name" not in df_customers.columns:
+        first = df_customers.get("first_name", pd.Series([""] * len(df_customers))).fillna("").astype(str).str.strip()
+        last = df_customers.get("last_name", pd.Series([""] * len(df_customers))).fillna("").astype(str).str.strip()
+        full = (first + " " + last).str.strip()
+        df_customers["full_name"] = full.where(full != "", df_customers["canonical_customer_id"].astype(str))
     df_rfm_segments = pd.read_csv(os.path.join(warehouse_dir, "fct_customer_rfm_segments.csv"))
     df_attribution = pd.read_csv(os.path.join(warehouse_dir, "fct_attribution_multi_touch.csv"))
     df_campaign_perf = pd.read_csv(os.path.join(warehouse_dir, "agg_campaign_performance_roi.csv"))
@@ -198,13 +203,14 @@ with tab_id:
         cust_profile = df_cust[df_cust["canonical_customer_id"] == selected_cust].iloc[0]
         linked_nodes = df_id_map[df_id_map["canonical_customer_id"] == selected_cust]
 
+        cust_name = cust_profile.get("full_name") or f"{cust_profile.get('first_name', '')} {cust_profile.get('last_name', '')}".strip() or cust_profile.get("canonical_customer_id", "Unknown")
         c_info1, c_info2 = st.columns([1, 2])
         with c_info1:
-            st.markdown(f"**Customer:** {cust_profile['full_name']}")
-            st.markdown(f"**Email:** `{cust_profile['email']}`")
-            st.markdown(f"**Location:** {cust_profile['city']}, {cust_profile['country']}")
-            st.markdown(f"**RFM Segment:** `{cust_profile['rfm_segment']}`")
-            st.markdown(f"**Lifetime Revenue:** `${cust_profile['lifetime_revenue_usd']:,.2f}`")
+            st.markdown(f"**Customer:** {cust_name}")
+            st.markdown(f"**Email:** `{cust_profile.get('email', 'N/A')}`")
+            st.markdown(f"**Location:** {cust_profile.get('city', 'Unknown')}, {cust_profile.get('country', 'Unknown')}")
+            st.markdown(f"**RFM Segment:** `{cust_profile.get('rfm_segment', 'N/A')}`")
+            st.markdown(f"**Lifetime Revenue:** `${float(cust_profile.get('lifetime_revenue_usd', 0.0)):,.2f}`")
             st.markdown(f"**Devices Linked:** `{len(linked_nodes[linked_nodes['identifier_type'] == 'user_pseudo_id'])}`")
 
         with c_info2:

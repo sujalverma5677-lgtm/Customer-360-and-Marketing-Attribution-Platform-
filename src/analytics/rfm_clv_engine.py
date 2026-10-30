@@ -124,10 +124,16 @@ class RFMCLVEngine:
             dim["monetary_usd"] + (dim["avg_order_value_usd"] * (dim["frequency_orders"] * 1.5) * dim["retention_prob"])
         ).round(2)
 
+        if "full_name" not in dim.columns:
+            first = dim["first_name"].fillna("").astype(str).str.strip()
+            last = dim["last_name"].fillna("").astype(str).str.strip()
+            full = (first + " " + last).str.strip()
+            dim["full_name"] = full.where(full != "", dim["customer_id"].astype(str))
+
         dim.rename(columns={"customer_id": "canonical_customer_id"}, inplace=True)
 
         cols_dim = [
-            "canonical_customer_id", "email", "first_name", "last_name", "phone",
+            "canonical_customer_id", "email", "first_name", "last_name", "full_name", "phone",
             "country", "region", "city", "signup_timestamp", "first_seen_timestamp",
             "last_seen_timestamp", "lifetime_sessions_count", "first_acquisition_channel",
             "last_active_channel", "lifetime_orders_count", "lifetime_revenue_usd",
