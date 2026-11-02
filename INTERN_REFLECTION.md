@@ -1,6 +1,6 @@
 # Analytics Engineering Internship Reflection
 ## Customer 360 & Multi-Touch Marketing Attribution Platform
-**Intern Name**: Analytics Engineering & Data Science Intern  
+**Intern Name**: Sujal Verma 
 **Track**: Data Analytics & Analytics Engineering  
 **Evaluation Period**: October 2026 – November 2026  
 **Outcome Goal**: Full-Time Conversion (Analytics Engineer / Marketing Data Scientist)
