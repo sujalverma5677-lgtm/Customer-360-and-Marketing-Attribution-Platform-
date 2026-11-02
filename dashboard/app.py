@@ -491,7 +491,7 @@ with tab_budget:
     b1.metric("Current Ad Budget", f"${tot_curr:,.2f}")
     b2.metric("Optimized Budget", f"${tot_rec:,.2f}", f"{(budget_scale - 1.0) * 100:+.0f}%")
     b3.metric("Projected Total Revenue", f"${tot_proj_rev:,.2f}")
-    b4.metric("Net Projected Revenue Lift", f"${tot_lift:,.2f}", "+5.5% efficiency lift", delta_color="normal")
+    b4.metric("Net Projected Revenue Lift", f"${tot_lift:,.2f}", f"{tot_lift / tot_curr_rev * 100:+.1f}% efficiency lift", delta_color="normal")
 
     st.markdown("---")
     st.markdown("#### Budget Shift by Marketing Channel ($)")

@@ -10,8 +10,8 @@
 - **The Core Mission**: In an era of third-party cookie deprecation and multi-device journeys, DTC e-commerce brands waste **25% to 40% of their ad spend** due to fragmented customer touchpoints.
 - **What We Built**: A production-grade Customer 360 & Multi-Touch Attribution Platform integrating **Google Analytics 4 (GA4)**, **BigQuery**, **dbt**, **Python**, and **Tableau**.
 - **Key Business Impact**: 
-  - Unified **13,600+ web events** across **4,700 identifiers** into **1,926 canonical entities**.
-  - Identified a **$41,863 immediate revenue lift** on the same marketing budget by reallocating capital away from over-credited bottom-of-funnel channels to high-performing top-of-funnel discovery engines.
+  - Unified **13,600+ web events** across **4,700 identifiers** into **1,926 identity clusters (1,200 known customers + 726 anonymous visitors)**.
+  - Identified a **$58,843 immediate revenue lift** on the same marketing budget by reallocating capital away from over-credited bottom-of-funnel channels to high-performing top-of-funnel discovery engines.
 
 > **Speaker Script (1:00)**:  
 > *"Good morning everyone. Today I'm excited to present our enterprise Customer 360 and Marketing Attribution Platform. Every DTC company today faces a critical blind spot: customers discover products on mobile via TikTok or Meta Prospecting, browse on their laptops, and convert days later through an email link or brand search. Traditional analytics tools like Google Analytics attribute 100% of that purchase to the last click. This creates a dangerous 'Last-Touch Trap'—leading growth teams to defund top-of-funnel discovery channels while over-spending on channels that merely capture existing demand. Over the next 9 minutes, I'll show you how we solved this problem from first principles using graph-based identity resolution, dbt data modeling, multi-touch attribution, and algorithmic budget optimization."*
@@ -84,7 +84,7 @@ flowchart LR
 - **Algorithm**: Disjoint Set Union (DSU) with path compression and rank optimization ($O(\alpha(N))$ time complexity).
 - **Scale Handled**:
   - **34,524 identity edges** evaluated.
-  - **4,701 disparate identifiers** clustered into **1,926 canonical entities**.
+  - **4,701 disparate identifiers** clustered into **1,926 identity clusters (1,200 known customers + 726 anonymous visitors)**.
   - **55.4% of converted customers** were discovered to be cross-device users!
 
 > **Speaker Script (1:15)**:  
@@ -154,10 +154,10 @@ We built an algorithmic **Budget Optimizer** applying diminishing marginal retur
 | **Paid Social - Retargeting**| $19,349 | $20,213 | **+$864** | **+4.5%** | +$3,049 |
 | **Paid Search - Generic** | $35,012 | $32,969 | **-$2,043** | **-5.8%** | -$3,794 |
 | **Paid Social - Meta Prosp.** | $43,860 | $35,061 | **-$8,799** | **-20.1%** | -$12,320 |
-| **TOTAL PAID PORTFOLIO** | **$143,541** | **$143,541** | **$0.00** | **0.0% Net** | **+$41,863 Net Lift (+5.5%)** |
+| **TOTAL PAID PORTFOLIO** | **$143,541** | **$143,541** | **$0.00** | **0.0% Net** | **+$58,843 Net Lift (+11.0%)** |
 
 > **Speaker Script (0:45)**:  
-> *"So where should we move the budget? We built a mathematical budget optimizer into the platform that models diminishing marginal returns with a 0.75 elasticity exponent. Keeping total marketing spend exactly constant at $143,541, our optimizer trims $8,800 from saturated Meta Prospecting ad sets and reallocates capital into high-yield Brand Search, TikTok scale-ups, and automated email flows. The result? A net projected revenue lift of **+$41,863** with zero increase in ad spend! That represents a 5.5% efficiency lift straight to the bottom line."*
+> *"So where should we move the budget? We built a mathematical budget optimizer into the platform that models diminishing marginal returns with a 0.75 elasticity exponent. Keeping total marketing spend exactly constant at $143,541, our optimizer trims $8,800 from saturated Meta Prospecting ad sets and reallocates capital into high-yield Brand Search, TikTok scale-ups, and automated email flows. The result? A net projected revenue lift of **+$58,843** with zero increase in ad spend! That represents an 11.0% efficiency lift straight to the bottom line."*
 
 ---
 

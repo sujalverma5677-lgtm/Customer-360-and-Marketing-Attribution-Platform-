@@ -16,7 +16,7 @@ I owned the platform architecture from ingestion to executive presentation:
 3. **dbt Warehouse Modeling**: Architected a production dbt project adhering to Medallion principles (Staging views, Intermediate graph and session models, and materialized Gold business marts for Customer 360 and Attribution).
 4. **Attribution Modeling Engine**: Implemented and quantitatively evaluated 5 attribution models (First Touch, Last Touch, Linear, 7-day Time-Decay, and U-Shaped Position-Based), establishing mathematical invariants to guarantee 100% revenue conservation.
 5. **Customer 360 & Predictive CLV**: Developed an automated RFM quintile scoring engine and projected 12-month forward CLV incorporating retention probabilities.
-6. **Algorithmic Budget Optimization**: Formulated a diminishing marginal returns optimizer (Hill/Power-Law curve) to prescribe the exact dollar reallocation needed to unlock +$41,863 in projected net revenue lift without increasing overall ad spend.
+6. **Algorithmic Budget Optimization**: Formulated a diminishing marginal returns optimizer (Hill/Power-Law curve) to prescribe the exact dollar reallocation needed to unlock +$58,843 in projected net revenue lift without increasing overall ad spend.
 7. **Production Visualizations**: Developed an interactive Streamlit BI platform and generated Tableau data sources, calculated fields, and executive dashboard blueprints.
 8. **Engineering Quality Assurance**: Authored 13 automated unit tests with 100% pass rate, coupled with 5 custom dbt data quality assertions.
 
@@ -59,7 +59,7 @@ The most rewarding aspect of this project was discovering the profound divergenc
    - Under Time-Decay Attribution, TikTok delivered **$87,932** in revenue at a **2.97x ROAS** with a true CPA of **$131.83**.
    - Meanwhile, Brand Search and Meta Retargeting's inflated ROAS figures (12.2x and 7.1x) were revealed to be capturing customers already acquired by top-of-funnel discovery.
 3. **The Dollar Solution**:
-   - Rather than giving descriptive commentary, I provided our CMO with an optimization model that shifts **$8,799** from saturated Meta Prospecting ad sets and reallocates into high-yield Brand Search, TikTok scale-up, and automated email flows, unlocking **+$41,863 in projected net revenue lift (+5.5%)** on the exact same budget.
+   - Rather than giving descriptive commentary, I provided our CMO with an optimization model that shifts **$8,799** from saturated Meta Prospecting ad sets and reallocates into high-yield Brand Search, TikTok scale-up, and automated email flows, unlocking **+$58,843 in projected net revenue lift (+11.0%)** on the exact same budget.
 
 ---
 

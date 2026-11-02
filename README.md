@@ -13,10 +13,10 @@
 Modern direct-to-consumer (DTC) and omnichannel brands lose **25% to 40% of their digital ad spend** due to fragmented customer touchpoints and cookie deprecation (Apple ITP, ATT). Standard analytics tools (such as Google Analytics 4) default to **Last-Touch Attribution**, which attributes 100% of conversion revenue to the final interaction (typically Brand Search or Retargeting coupons), starving top-of-funnel discovery channels like TikTok and Meta.
 
 This repository implements a full-stack, production-grade Customer 360 & Multi-Touch Attribution platform:
-- **Identity Graph Resolution**: Resolves **13,628 GA4 web events** and **4,701 identifiers** (cookies, hashed emails, CRM IDs) into **1,926 canonical customer profiles** using Graph Connected Components (Disjoint Set Union).
+- **Identity Graph Resolution**: Resolves **13,628 GA4 web events** and **4,701 identifiers** (cookies, hashed emails, CRM IDs) into **1,926 identity clusters (1,200 known CRM customers + 726 anonymous-only visitors)** using Graph Connected Components (Disjoint Set Union).
 - **5 Multi-Touch Attribution Models**: Evaluates **First-Touch**, **Last-Touch**, **Linear**, **7-Day Exponential Time-Decay**, and **U-Shaped Position-Based (40/20/40)** attribution.
 - **Unmasking the "Last-Touch Trap"**: Proves that **TikTok Ads** (reported LTA ROAS of **0.82x**) actually drives **$168,679 in discovery revenue** at a **5.71x First-Touch ROAS** and **2.97x Time-Decay ROAS**.
-- **Algorithmic Budget Optimization**: Uses a diminishing marginal returns model ($R = \alpha \cdot S^{0.75}$) to reallocate budget across channels, unlocking **+$41,863 in projected net revenue lift (+5.5%)** without spending an extra dollar.
+- **Algorithmic Budget Optimization**: Uses a diminishing marginal returns model ($R = \alpha \cdot S^{0.75}$) to reallocate budget across channels, unlocking **+$58,843 in projected net revenue lift (+11.0%)** without spending an extra dollar.
 - **Production Rigor**: 100% mathematical revenue conservation ($760,082.10 conserved to the cent), 13 automated unit tests, and complete Tableau exports.
 
 ---
@@ -117,7 +117,7 @@ Using a diminishing returns elasticity of $\beta = 0.75$, our optimization algor
 | **Paid Social - Retargeting** | $19,349 | $20,213 | **+$864** | **+4.5%** | **+$3,049** | Maintain: Steady cart-recovery engine |
 | **Paid Search - Generic** | $35,012 | $32,969 | **-$2,043** | **-5.8%** | **-$3,794** | Maintain / Trim: Optimize keyword match types |
 | **Paid Social - Meta Prosp.** | $43,860 | $35,061 | **-$8,799** | **-20.1%** | **-$12,320** | Trim: Saturation reached; reallocate to TikTok |
-| **TOTAL** | **$143,541** | **$143,541** | **$0.00** | **0.0%** | **+$41,863 (+5.5%)** | **Optimized Efficiency** |
+| **TOTAL** | **$143,541** | **$143,541** | **$0.00** | **0.0%** | **+$58,843 (+11.0%)** | **Optimized Efficiency** |
 
 ---
 
